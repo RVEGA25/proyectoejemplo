@@ -1,0 +1,67 @@
+ .container{
+            border-width: 10px;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgb(11, 137, 247);
+            border-radius: 15px;
+            border-style:outset;
+            border-color: rgb(204, 240, 207);
+            
+
+        }
+        input{
+            border-width: 3px;
+            width: 98%;
+            height: 25px;
+        }
+        label{
+            display: block;
+            margin: 2px;
+            text-align: left;
+
+        }
+        select{
+            border-width: 3px;
+            width: 100%;
+            height: 25px;
+        }
+        textarea{
+            border-width: 3px;
+            width: 98%;
+        }
+        input[type="submit"]{
+             width: 20%;
+            border-width: 3px;
+            background-color: rgb(5, 248, 248);
+            cursor: pointer;
+
+        }
+         input[type="submit"]:hover {
+            background-color: rgb(129, 129, 248);
+         }
+body{
+    background-color: rgb(204, 218, 157);
+}
+.otra{
+    margin: 0 auto;
+
+  
+}
+.centrada{
+    list-style-position: inside;
+    margin: 0 auto;
+    padding-left: 0;
+}
+table{
+    background-color: rgb(205, 235, 225);
+    border-color: aquamarine;
+}
+#sola{
+    border-color: aqua;
+}
+header{
+    background-color: blanchedalmond;
+    height: 200px;
+    
+}
